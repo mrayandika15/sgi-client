@@ -1,0 +1,7 @@
+.active {
+  font-weight: bold;
+  color: #323232 !important;
+}
+.active::after {
+  width: 50% !important;
+}

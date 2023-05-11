@@ -1,0 +1,28 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "next build && next export"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.3.2",
+    "@emotion/react": "11",
+    "@emotion/styled": "11",
+    "@fontsource/inter": "^4.5.12",
+    "framer-motion": "6",
+    "next": "12.3.0",
+    "react": "18.2.0",
+    "react-awesome-lightbox": "^1.8.1",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.36.0"
+  },
+  "devDependencies": {
+    "eslint": "8.23.1",
+    "eslint-config-next": "12.3.0"
+  }
+}
