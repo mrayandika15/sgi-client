@@ -155,8 +155,8 @@ const Navbar = ({ visible }) => {
                   <DrawerContent bg="sgi.primary.800" color="white" py="5">
                     <DrawerCloseButton fontSize="lg" px="10" py="45px" />
 
-                    <DrawerHeader>
-                      <Image src={LOGO_PUTIH} alt="SGI" h="64px" />
+                    <DrawerHeader display="flex" justifyContent="center">
+                      <Image src={LOGO_PUTIH} alt="SGI" h="42px" />
                     </DrawerHeader>
 
                     <DrawerBody py="10">
