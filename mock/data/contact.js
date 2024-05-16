@@ -10,9 +10,9 @@ const CONTACT_US = [
     mail_sgi: "info@satuglobalinvestama.com",
 
     ess: "Elit Sukses Sekuritas",
-    office_ess: "SCBD Lot 9, Equity Tower Floor 15-d, Kav. 52-53",
-    map_ess: "Jl. Jendral Sudirman Kav. 52-53, DKI Jakarta",
-    phone_ess: "+6221 29035177",
+    office_ess: "Gedung World Capital Tower  Lt. 10",
+    map_ess: "Jl. Mega Kuningan Barat Lingkar Mega Kuningan No.3, Jakarta Selatan ",
+    phone_ess: "(021) 50918001",
   },
 ];
 
