@@ -3,9 +3,9 @@
 const HEADER_IMG = "/header/header.png";
 const HEADER_IMG_NEW = "/header/header2.png";
 
-const LOGO_PUTIH = "/logo/Logo-Brandmark-Putih.png";
-const LOGO_HITAM = "/logo/Logo-Brandmark-Hitam.png";
-const FOOTER_LOGO = "/logo/Logo-Footer.png";
+const LOGO_PUTIH = "/logo/Logo.png";
+const LOGO_HITAM = "/logo/Logo-Hitam.png";
+const FOOTER_LOGO = "/logo/Logo.png";
 
 const ICONS_PUTIH = ["/icon/instagram-white.png", "/icon/linkedin-white.png"];
 const ICONS_HITAM = ["/icon/instagram-black.png", "/icon/linkedin-black.png"];
