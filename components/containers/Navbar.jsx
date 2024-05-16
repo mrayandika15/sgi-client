@@ -86,7 +86,7 @@ const Navbar = ({ visible }) => {
             <Image
               src={visible ? LOGO_PUTIH : LOGO_HITAM}
               alt="SGI"
-              h={{ base: "22px", lg: "48px" }}
+              h={{ base: "36px", lg: "58px" }}
             />
 
             {isDesktop ? (
@@ -156,7 +156,7 @@ const Navbar = ({ visible }) => {
                     <DrawerCloseButton fontSize="lg" px="10" py="45px" />
 
                     <DrawerHeader>
-                      <Image src={LOGO_PUTIH} alt="SGI" h="48px" />
+                      <Image src={LOGO_PUTIH} alt="SGI" h="58px" />
                     </DrawerHeader>
 
                     <DrawerBody py="10">
