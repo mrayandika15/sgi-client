@@ -12,7 +12,7 @@ const CONTACT_US = [
     ess: "Elit Sukses Sekuritas",
     office_ess: "Gedung World Capital Tower  Lt. 10",
     map_ess: "Jl. Mega Kuningan Barat Lingkar Mega Kuningan No.3, Jakarta Selatan ",
-    phone_ess: "(021) 50918001",
+    phone_ess: "+6221 50918001",
   },
 ];
 
