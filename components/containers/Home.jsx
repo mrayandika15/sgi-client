@@ -47,7 +47,7 @@ const HomeSection = () => {
 
         {HOME?.map(({ title, subtitle, button_text: btn }, index) => (
           <VStack
-            textAlign="justify"
+            // textAlign="justify"
             key={index}
             px={{ base: "5", lg: "20" }}
             maxW="container.md"
@@ -61,6 +61,7 @@ const HomeSection = () => {
               <chakra.b fontSize={{ base: "26px", lg: "30px" }}>
                 {title}
               </chakra.b>
+              &nbsp;
               {subtitle}
             </Text>
             <Link href="#about-us">
