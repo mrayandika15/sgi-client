@@ -8,7 +8,7 @@ const TextNote = (props) => {
       ml={{ base: "20px", lg: "0px" }}
       mt="12px"
       fontSize={{ base: "12px", lg: "16px" }}
-      textAlign="justify"
+      // textAlign="justify"
     >
       {props.text}
     </Text>

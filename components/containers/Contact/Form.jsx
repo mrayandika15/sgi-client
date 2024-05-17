@@ -98,7 +98,7 @@ const Form = () => {
       >
         {CONTACT_US?.map((data, index) => (
           <Grid
-            textAlign="justify"
+            // textAlign="justify"
             templateColumns={{ base: "repeat(1, 1fr)", lg: "repeat(2, 1fr)" }}
             justifyContent="space-between"
             borderColor="sgi.primary.100"

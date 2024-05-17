@@ -9,7 +9,7 @@ const SubIpo = () => {
     <Box px={{ base: "40px", md: "150px" }}>
       <HStack
         ml={{ base: "20px", lg: "0px" }}
-        textAlign="justify"
+        // textAlign="justify"
         spacing={{ base: "0", lg: "10" }}
         justifyContent="space-between"
         alignItems="stretch"
