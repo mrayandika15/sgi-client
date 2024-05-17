@@ -21,7 +21,7 @@ const ListAdvantage = () => {
         justifyContent="space-between"
         alignItems="stretch"
         flexDirection={{ base: "column", lg: "row" }}
-        textAlign="justify"
+        // textAlign="justify"
       >
         <Wrap
           my={{ base: "20px!important", lg: 0 }}

@@ -10,24 +10,40 @@ const Partnerships = () => {
       spacing={{ base: "-3", sm: "2", md: "10" }}
     >
       <HStack justifyContent="center">
-        {PARTNERSHIPS_IMG?.slice(0, 2).map((img, index) => (
-          <Box minW="150px" minH="150px" key={index}>
-            <Image
-              w="300px"
-              h="150px"
-              src={img}
-              objectFit="contain"
-              cursor="pointer"
-            />
-          </Box>
-        ))}
+        <Box
+          minW="150px"
+          minH="150px"
+        >
+          <Image
+            w="500px"
+            h="150px"
+            src={PARTNERSHIPS_IMG[0]}
+            objectFit="contain"
+            cursor="pointer"
+          />
+        </Box>
+        <Box
+          minW="150px"
+          minH="150px"
+        >
+          <Image
+            w="300px"
+            h="150px"
+            src={PARTNERSHIPS_IMG[1]}
+            objectFit="contain"
+            cursor="pointer"
+          />
+        </Box>
       </HStack>
       <HStack
         justifyContent="space-evenly"
         wrap={{ base: "wrap", md: "nowrap" }}
       >
         {PARTNERSHIPS_IMG?.slice(2).map((img, index) => (
-          <Box flex={{ base: "1 0 39%", md: "1" }} key={index}>
+          <Box
+            flex={{ base: "1 0 39%", md: "1" }}
+            key={index}
+          >
             <Image
               src={img}
               w="250px"

@@ -6,7 +6,7 @@ const SubAbout = () => {
   return (
     <Box>
       <HStack
-        textAlign="justify"
+        // textAlign="justify"
         spacing={{ base: "0" }}
         justifyContent="space-between"
         alignItems="stretch"

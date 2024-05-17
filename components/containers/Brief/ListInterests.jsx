@@ -38,7 +38,7 @@ const ListInterests = () => {
         px={{ base: "20px", lg: "32px" }}
         py={{ base: "20px", lg: "32px" }}
         alignItems="stretch"
-        textAlign="justify"
+        // textAlign="justify"
       >
         <Text
           borderColor="sgi.primary.100"
